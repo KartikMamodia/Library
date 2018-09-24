@@ -9,14 +9,14 @@
 * Compile `javac Library.java`
 * Run `java Library`
 
-Admin credential  
+## Admin credential  
 ID ```admin```  
 Password ```libraryadmin@25```
+
 ---
+
 ### Admin
 Admin have all the privilege.
-
-
 
 ### Librarian
 Librarian can add/issue/order books and can add/delete students.
