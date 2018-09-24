@@ -1,5 +1,5 @@
 # Library
-## This project helps to make you fimiliar how the library works.
+### This project helps to make you fimiliar how the library works.
 ---
 # How to run
 * Install Apache and MYSQL in desktop
@@ -9,6 +9,17 @@
 * Compile `javac Library.java`
 * Run `java Library`
 
-Admin credential
+Admin credential  
 ID ```admin```  
 Password ```libraryadmin@25```
+---
+### Admin
+Admin have all the privilege.
+
+
+
+### Librarian
+Librarian can add/issue/order books and can add/delete students.
+
+### Student
+Student can monitor/issue/request new books in library.
