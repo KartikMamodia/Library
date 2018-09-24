@@ -3,8 +3,14 @@
 ---
 ![alt text](https://github.com/KartikMamodia/Library/blob/master/Img/Libraryclass.JPG)
 
+# Requirements
+* JDK 7 or above.
+* Apache
+* MYSQL
+
 # How to run
 * Install Apache and MYSQL in desktop
+* Open localhost(`http://localhost:8080/phpmyadmin/`)
 * Create table in localhost
 * Import all the sql files in localhost
 * Open cmd/Terminal in src folder
