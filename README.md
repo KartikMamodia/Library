@@ -13,14 +13,14 @@
 # How to run
 * Install Apache and MYSQL in desktop  
 * Open localhost( `http://localhost:8080/phpmyadmin/` )
-```8080 is port number assigned to Apache server```
+   ```8080 is port number assigned to Apache server```
 * Create table in localhost
 * Import all the sql files in localhost
 * Open cmd/Terminal in src folder
 * Compile `javac *.java`
 * Compile `javac Library.java`
 * Run `java Library`
-<!-- ...TRY -->
+
 ## Admin Credentials  
 ID ```admin```  
 Password ```libraryadmin@25```
