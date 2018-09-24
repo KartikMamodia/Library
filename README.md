@@ -11,8 +11,8 @@
 * MYSQL
 
 # How to run
-* Install Apache and MYSQL in desktop  
-* Open localhost( `http://localhost:8080/phpmyadmin/` )
+* Install Apache and MYSQL in desktop
+* Open localhost( `http://localhost:8080/phpmyadmin/` )  
    ```8080 is port number assigned to Apache server```
 * Create table in localhost
 * Import all the sql files in localhost
