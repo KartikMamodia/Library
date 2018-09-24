@@ -1,6 +1,8 @@
 # Library
 ### This project helps to make you fimiliar how the library works.
 ---
+![alt text](https://github.com/KartikMamodia/Library/blob/master/Img/Libraryclass.JPG)
+
 # How to run
 * Install Apache and MYSQL in desktop
 * Create table in localhost
@@ -19,10 +21,12 @@ Password ```libraryadmin@25```
 ### Admin
 Admin have all the privilege.
 
-![alt text](https://github.com/KartikMamodia/Library/blob/master/Img/adminLogin.JPG)
+![alt text](https://github.com/KartikMamodia/Library/blob/master/Img/AdminSuccess.JPG)
 
 ### Librarian
 Librarian can add/issue/order books and can add/delete students.
+
+![alt text](https://github.com/KartikMamodia/Library/blob/master/Img/LibrarianLogin.JPG)
 
 ### Student
 Student can monitor/issue/request new books in library.
