@@ -6,10 +6,11 @@
 * Create table in localhost
 * Import all the sql files in localhost
 * Open cmd/Terminal in src folder
+* Compile `javac *.java`
 * Compile `javac Library.java`
 * Run `java Library`
 
-## Admin credential  
+## Admin Credentials  
 ID ```admin```  
 Password ```libraryadmin@25```
 
