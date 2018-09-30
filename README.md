@@ -23,8 +23,8 @@
 
 
 ## FrontEnd / Backend  
-Front End: Swing,AWT.
-Back End: MYSQL.
+__Front End:__ Swing,AWT.  
+**Back End:** MYSQL.
 
 
 ## Admin Credentials  
