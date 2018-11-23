@@ -60,10 +60,11 @@ public class AdminLogin extends JFrame {
 		
 		JLabel lblEnterName = new JLabel("Enter Name:");
 		lblEnterName.setBounds(30,80,100,30);
+		frame.add(lblEnterName);
 		
 		JLabel lblEnterPassword = new JLabel("Enter Password:");
 		lblEnterPassword.setBounds(30,130,100,30);
-
+		frame.add(lblEnterPassword);
 		
 		textField = new JTextField();
 		textField.setBounds(140,80,180,30);
@@ -72,6 +73,7 @@ public class AdminLogin extends JFrame {
 		
 		JButton btnLogin = new JButton("Login");
 		btnLogin.setBounds(150,170,100,50);
+		frame.add(btnLogin);
 		btnLogin.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 			String name=textField.getText();
