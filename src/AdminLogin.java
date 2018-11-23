@@ -18,7 +18,7 @@ import java.awt.event.ActionEvent;
 import javax.swing.JPasswordField;
 
 public class AdminLogin extends JFrame {
-	static AdminLogin frame;
+	static JFrame frame;
 	private JPanel contentPane;
 	private JTextField textField;
 	private JPasswordField passwordField;
@@ -30,7 +30,7 @@ public class AdminLogin extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					frame = new AdminLogin();
+					frame = new JFrame();
 					frame.setVisible(true);
 					frame.setSize(400,300);
 					frame.setLayout(null);
@@ -55,6 +55,7 @@ public class AdminLogin extends JFrame {
 		
 		JLabel lblAdminLoginForm = new JLabel("Admin Login Form");
 		lblAdminLoginForm.setBounds(100,10,180,30);
+		frame.add(lblAdminLoginForm);
 		lblAdminLoginForm.setForeground(Color.GRAY);
 		lblAdminLoginForm.setFont(new Font("Tahoma", Font.PLAIN, 18));
 		
@@ -65,6 +66,10 @@ public class AdminLogin extends JFrame {
 		JLabel lblEnterPassword = new JLabel("Enter Password:");
 		lblEnterPassword.setBounds(30,130,100,30);
 		frame.add(lblEnterPassword);
+		
+		passwordField=new JPasswordField();
+		passwordField.setBounds(140,130,180,30);
+		frame.add(passwordField);
 		
 		textField = new JTextField();
 		textField.setBounds(140,80,180,30);
